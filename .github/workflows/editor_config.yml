@@ -1,0 +1,22 @@
+# Ref: https://github.com/marketplace/actions/editorconfig-checker-action
+name: Editor Config
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - live
+      - sandbox
+      - insiders
+
+jobs:
+  editorconfig:
+    # TODO: Configure self-hosted runner
+    #       it fails with due to not having git installed
+    # runs-on: self-hosted
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: editorconfig-checker/action-editorconfig-checker@main
+      - run: editorconfig-checker

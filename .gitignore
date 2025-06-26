@@ -1,3 +1,9 @@
+# Zig
 .zig-cache/
 zig-out/
 *.o
+
+# AI-powered DevEx
+CLAUDE.md
+.cursor
+.claude
