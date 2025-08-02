@@ -93,4 +93,4 @@ Join the developers building the next generation of AI applications with sustain
 
 ---
 
-*© 2025 Åndra Labs. Building the monetisation layer for the AI economy.*
+*© 2025 Aandra Labs, Inc. Building the monetisation layer for the AI economy.*
